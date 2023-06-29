@@ -1,5 +1,18 @@
+TO DEPLOY CONTRACT
+
 cd ./thirdweb-contracts
+npm install
+
+create .env file and add PRIVATE_KEY
+
 npm run deploy
 
-cd ../client
+TO RUN WEB3 INTERFACE
+
+cd ./client
+npm install
+
+change file ./client/src/context/index.jsx
+rewrite address of deployed contract
+
 npm run dev
